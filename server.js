@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
-const express = require('express');
+const express = require("express");
 
 // Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
+const PORT = 8090;
+const HOST = "0.0.0.0";
 
 // App
 const app = express();
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
   res.send('<h2 style="color: purple"> Java Home Docker App<h2>');
 });
 
